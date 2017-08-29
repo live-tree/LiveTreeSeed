@@ -1,0 +1,21 @@
+{
+  "name": "lt-token",
+  "version": "1.0.0",
+  "description": "LiveTree tokens",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "LiveTree"
+  ],
+  "author": "Pratik Patel",
+  "license": "ISC"
+}

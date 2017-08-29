@@ -1,0 +1,100 @@
+{
+  "contract_name": "Addresses",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "reserveForMarketingVault",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "openSourceDevelopersReserveVault",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "preSalesVault",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "reserveForFoundingTeamVault",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "laterFundingReserveVault",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "salesVault",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "reserveForBrancherPromotersVault",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x606060405260008054600160a060020a0319908116733f6462bb00d0a3c0e5f7c65b575f82f462d3fab117909155600180548216731f7a10f223d29a05a48280fed5bdcbede10581d5179055600280548216734834de897c7896f181136a94eefea39551c9811717905560038054821673198975166063264396f35fb80e19928652203a53179055600480548216737f96c7cef75b6338200ee583c7a971b91b6e4c0117905560058054821673de3f3f9bdd44b9aadd40a4d698acc936f58f33e817905560068054909116731b1634c93718d3a6c380c1cac709c6d44b5c675917905534156100ed57600080fd5b5b610263806100fd6000396000f300606060405236156100805763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663167c091181146100855780631e189796146100b457806342245649146100e35780636b35638714610112578063a52e9e1b14610141578063bb17e1b914610170578063e9b7fcda1461019f575b600080fd5b341561009057600080fd5b6100986101ce565b604051600160a060020a03909116815260200160405180910390f35b34156100bf57600080fd5b6100986101dd565b604051600160a060020a03909116815260200160405180910390f35b34156100ee57600080fd5b6100986101ec565b604051600160a060020a03909116815260200160405180910390f35b341561011d57600080fd5b6100986101fb565b604051600160a060020a03909116815260200160405180910390f35b341561014c57600080fd5b61009861020a565b604051600160a060020a03909116815260200160405180910390f35b341561017b57600080fd5b610098610219565b604051600160a060020a03909116815260200160405180910390f35b34156101aa57600080fd5b610098610228565b604051600160a060020a03909116815260200160405180910390f35b600454600160a060020a031681565b600354600160a060020a031681565b600054600160a060020a031681565b600654600160a060020a031681565b600254600160a060020a031681565b600154600160a060020a031681565b600554600160a060020a0316815600a165627a7a72305820eabad4fb121d170ce9a3cc450adacc0998589f1508767a393526d8bb35e61abe0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1503988922045
+}

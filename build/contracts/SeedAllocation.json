@@ -1,0 +1,8 @@
+{
+  "contract_name": "SeedAllocation",
+  "abi": [],
+  "unlinked_binary": "0x60606040523415600e57600080fd5b5b603680601c6000396000f30060606040525b600080fd00a165627a7a7230582032a8dd068e2f5334371a6aec3e3d8fc87fdeaf4a1ff1cf1c71de1cb52ce913e90029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1503807414044
+}

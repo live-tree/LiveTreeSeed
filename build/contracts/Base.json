@@ -1,0 +1,100 @@
+{
+  "contract_name": "Base",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "contractBalance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "VERSION",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "message",
+          "type": "string"
+        }
+      ],
+      "name": "Log",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "oldOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "ChangedOwner",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6000805461010060a860020a03191661010033600160a060020a0316021790555b5b610287806100416000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416638b7afe2e811461005e5780638da5cb5b14610083578063a6f9dae1146100b2578063ffa1ad74146100e5575b600080fd5b341561006957600080fd5b610071610170565b60405190815260200160405180910390f35b341561008e57600080fd5b61009661017f565b604051600160a060020a03909116815260200160405180910390f35b34156100bd57600080fd5b6100d1600160a060020a0360043516610193565b604051901515815260200160405180910390f35b34156100f057600080fd5b6100f8610224565b60405160208082528190810183818151815260200191508051906020019080838360005b838110156101355780820151818401525b60200161011c565b50505050905090810190601f1680156101625780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b600160a060020a033016315b90565b6000546101009004600160a060020a031681565b6000805433600160a060020a039081166101009092041614156101b257fe5b6000805474ffffffffffffffffffffffffffffffffffffffff001916610100600160a060020a038581168202929092179283905590910481169033167f2748503f8f31d8071821d1d5144384ba6a465036cda17fa1629a8a2509ccee0e60405160405180910390a35060015b5b919050565b60408051908101604052600a81527f4261736520302e322e33000000000000000000000000000000000000000000006020820152815600a165627a7a72305820f2a1793ecc315509814760fbc2c2bd3283c223a5b4f1c63238c7756896225a6c0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1503926296026
+}
